@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/et_url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="MASUKAN URL ANDA"
+        android:inputType="text"/>
+
+
+
+    <Button
+        android:id="@+id/btn_buka_website"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUKA WEBSITE"/>
+
+    <EditText
+        android:id="@+id/et_lokasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="MASUKAN LOKASI ANDA"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/btn_buka_lokasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUKA LOKASI"/>
+
+    <EditText
+        android:id="@+id/et_teks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="MASUKAN TEKS"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/btn_bagikan_teks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BAGIKAN TEKS"/>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
